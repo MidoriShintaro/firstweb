@@ -11,6 +11,7 @@ html{
 
 #main{
     height: auto;
+    width: 100%;
 }
 #body {
     margin: 0;
@@ -142,13 +143,21 @@ html{
     position: relative;
     font-size: 30px;
 }
-.header__search {
+.header__search,
+.header-menu-icon {
     float: right;
     padding: 0 24px;
+}
+.header-menu-icon {
+    display: none;
 }
 .header__search-icon {
     line-height: 80px;
     color: #000;
+}
+.header__search-icon:hover {
+    color: #6fcccc;
+    cursor: pointer;
 }
 .header__search:hover {
     color: #6fcccc;
@@ -185,6 +194,9 @@ html{
 .text-footer {
     padding-top: 15px;
     font-size: 1.4rem;
+}
+.slider-text-link {
+    display: inline-block;
 }
 .text-link {
     display: inline-block;
@@ -374,6 +386,9 @@ html{
     padding-bottom: 20px;
     cursor: default;
 }
+.favorites {
+    padding-bottom: 30px;
+}
 .favorite-list {
     padding: 0 400px;
     position: relative;
@@ -434,7 +449,7 @@ html{
     color: #000;
     font-size: 1.2rem;
     transition: transform .2s ease-in;
-    display: block;
+    display: inline-block;
 }
 .favorite-info-item-link:hover {
     color: #20c38d;
@@ -452,7 +467,7 @@ html{
     display: flex;
     position: relative;
     width: 100%;
-    padding: 80px;
+    padding: 85px;
     justify-content: center;
     font-size: -webkit-xxx-large;
     font-style: oblique;
