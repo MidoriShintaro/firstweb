@@ -19,6 +19,9 @@
         padding: 0 0 0 24px;
     }
     .header__nav-subnav {
+        top: -30px;
+    }
+    .header__nav-subnav li a {
         display: none;
     }
     .header__nav-icon {
@@ -73,7 +76,7 @@
         padding: 30px 0 0 0;
     }
     .language-item-document {
-        width: 47%;
+        width: 60%;
     }
     .favorites {
         padding-bottom: 20px;
@@ -89,7 +92,7 @@
 
     }
     .content-more-text {
-        padding: 60px;
+        padding: 40px;
     }
     .contact-info {
         display: block;

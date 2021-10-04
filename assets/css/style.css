@@ -266,7 +266,7 @@ html{
 .content-language {
     width: 100%;
     height: auto;
-    padding: 40px 0 0 0;
+    padding: 80px 0 0 0;
 }
 .content-language-tilte{
     text-align: center;
@@ -286,7 +286,7 @@ html{
 }
 .languages {
     display: flex;
-    padding: 0 70px;
+    padding: 40px 70px 0;
     justify-content: space-around;
     align-items: center;
     line-height: 30px;
@@ -367,7 +367,7 @@ html{
     background-color: rgb(87, 85, 85);
 }
 .content-favorite {
-    padding: 40px 0 0 0;
+    padding: 80px 0 0 0;
     width: 100%;
     height: auto;
 }
@@ -387,7 +387,7 @@ html{
     cursor: default;
 }
 .favorites {
-    padding-bottom: 30px;
+    padding-bottom: 80px;
 }
 .favorite-list {
     padding: 0 400px;
@@ -475,7 +475,7 @@ html{
     opacity: 0.4;
 }
 .footer-contact {
-    margin-top: 30px;
+    margin-top: 80px;
     border-top: 1px solid #e32b2b;
 }
 .contact-info {
