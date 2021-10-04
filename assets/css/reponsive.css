@@ -47,10 +47,13 @@
     }
     .slider__text {
         position: relative;
-        bottom: 67px;
+        bottom: 72px;
     }
     .text-head {
         font-size: 1.5rem;
+    }
+    .footer-contact {
+        margin-top: 20px;
     }
     .text-footer {
         padding: 0;
@@ -69,11 +72,17 @@
         font-weight: 400;
         top: 0;
     }
+    .content-language {
+        padding: 40px 0 0 0;
+    }
     .content-language-info {
         margin-bottom: 30px;
     }
     .content-favorite {
-        padding: 30px 0 0 0;
+        padding: 20px 0 0 0;
+    }
+    .languages {
+        padding: 10px 70px 0;
     }
     .language-item-document {
         width: 60%;
@@ -89,7 +98,6 @@
     }
     .favorite-intro {
         padding: 15px 25px;
-
     }
     .content-more-text {
         padding: 40px;
