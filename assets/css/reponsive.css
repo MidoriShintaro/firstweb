@@ -13,7 +13,7 @@
     }
     .header__nav > li {
         display: block;
-        height: 74px;
+        height: 66px;
     }
     .header__nav-list {
         padding: 0 0 0 24px;
@@ -43,7 +43,7 @@
     }
     #slider {
         top: 80px;
-        padding-bottom: 40px ;
+        padding-bottom: 32px ;
     }
     .slider__text {
         position: relative;
@@ -51,6 +51,13 @@
     }
     .text-head {
         font-size: 1.5rem;
+    }
+    .content-language-tilte {
+        font-size: 0.9rem;
+        line-height: 38px;
+    }
+    .content-language-text {
+        padding: 10px 0;
     }
     .footer-contact {
         margin-top: 20px;
@@ -76,10 +83,17 @@
         padding: 40px 0 0 0;
     }
     .content-language-info {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
     }
     .content-favorite {
         padding: 20px 0 0 0;
+    }
+    .content-favorite-text {
+        padding: 10px 0;
+    }
+    .content-favorite-tilte {
+        font-size: 1rem;
     }
     .languages {
         padding: 10px 70px 0;
@@ -87,8 +101,23 @@
     .language-item-document {
         width: 60%;
     }
+    .language-item-text {
+        font-size: 0.9rem;
+    }
     .favorites {
         padding-bottom: 20px;
+    }
+    .content-favorite-info {
+        padding-bottom: 10px;
+    }
+    .favorite-text-head {
+        font-size: 2.4rem;
+    }
+    .favorite-description-title-link {
+        font-size: 1.8rem;
+    }
+    .favorite-decription-info {
+        font-size: 1rem;
     }
     .favorite-list {
         padding: 0 30px;
@@ -101,6 +130,14 @@
     }
     .content-more-text {
         padding: 40px;
+        display: flex;
+        position: relative;
+        width: 100%;
+        justify-content: center;
+        font-size: -webkit-xxx-large;
+        font-style: oblique;
+        font-family: fantasy;
+        opacity: 0.4;
     }
     .contact-info {
         display: block;
